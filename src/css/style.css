@@ -38,7 +38,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 
 .top_navbar
     { 
-    background: #027213;
+    background-color: #0F50B8;
     font-family: sans-serif;
     font-size: 110%;
     vertical-align: middle;
@@ -124,7 +124,7 @@ img[alt=large]
     width:40%; 
     margin-left: 40px;
     border: solid 3px;
-    border-color: #027213;
+    border-color: #0F50B8;
     padding-top: 20px;
     padding-bottom: 1px;
     padding-left: 20px;
