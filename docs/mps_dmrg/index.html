@@ -100,7 +100,7 @@
     <li><a href="#toc_12">References</a></li>
 </ul></div>
 <p>The density matrix renormalization group (DMRG)<a class="citation" href="#White:1992_1">[1]</a><a class="citation" href="#White:1993den_2">[2]</a><a class="citation" href="#Schollwoeck:2005_3">[3]</a>
-is an adaptive algorithm for optimizing a [[matrix product state (MPS)|mps]] (or tensor train)
+is an adaptive algorithm for optimizing a <a href="unknown_file">matrix product state (MPS)</a> (or tensor train)
 tensor network, such that after optimization, the MPS is approximately the dominant
 eigenvector of a large matrix $H$.
 The matrix $H$ is usually assumed to be a Hermitian matrix, but the
@@ -110,7 +110,7 @@ combining them into a single tensor to be optimized.
 The optimization is performed using
 an iterative eigensolver approach such as Lanczos<a class="citation" href="#LanczosWikipedia_4">[4]</a><a class="citation" href="#Lanczos:1950_5">[5]</a> or Davidson.<a class="citation" href="#Davidson:1975_6">[6]</a>
 Before the next step, the single tensor is
-factorized using an [[SVD|svd]] or density matrix decomposition in order to restore the MPS form.
+factorized using an <a href="unknown_file">SVD</a> or density matrix decomposition in order to restore the MPS form.
 During this factorization, the bond dimension (or tensor train rank) of the MPS can be
 adapted. This adaptation is optimal in the sense of preserving the distance between the
 network just after the optimization step and the network with restored MPS form.</p>
@@ -133,7 +133,7 @@ than one minimum eigenvalue.)</p>
 <p>For the algorithm to be efficient, $H$ must have certain simplifying properties.
 For example $H$ could be a sum of local terms</p>
 <p><img src="H_local_terms.png" alt="medium" /></p>
-<p>or, more generally, $H$ could be given as an [[MPO|mpo]] tensor network</p>
+<p>or, more generally, $H$ could be given as an <a href="unknown_file">MPO</a> tensor network</p>
 <p><img src="H_MPO_form.png" alt="medium" /></p>
 <p>The MPO form is the most natural one for the DMRG algorithm, and can efficiently
 represent many cases one wants to consider, such as when $H$ is a sum of local
@@ -145,7 +145,7 @@ tensor networks.
 <h2>Steps of the DMRG Algorithm</h2>
 <p><a name="toc_3"></a></p>
 <h3>Step 0: Setup</h3>
-<p>Before beginning the DMRG algorithm, it is imperative to bring the initial MPS into an orthogonal form via a [[gauge transformation|mps#toc_7]]. Here we will choose to begin the DMRG algorithm assuming (without loss of generality) that the MPS tensors 2,3,...,N are all right-orthogonal:</p>
+<p>Before beginning the DMRG algorithm, it is imperative to bring the initial MPS into an orthogonal form via a <a href="unknown_file">gauge transformation</a>. Here we will choose to begin the DMRG algorithm assuming (without loss of generality) that the MPS tensors 2,3,...,N are all right-orthogonal:</p>
 <p><img src="right_ortho_MPS.png" alt="medium" /></p>
 <p>Because of the right-orthogonality property, we can interpret the MPS tensors numbers
 $3,4,5,\ldots$ collectively as a change of basis from the basis of visible indices
@@ -154,7 +154,7 @@ $i_3,i_4,i_5,\ldots$ to the bond index $\alpha_2$ as follows:</p>
 <p>This interpretation motivates transforming the matrix $H$ into the $i_1,i_2,\alpha_2$
 basis as given by the following diagram:</p>
 <p><img src="projected_H.png" alt="medium" /></p>
-<p>If we take $H$ to be in [[MPO|mpo]] form, we can compute the transformation efficiently,
+<p>If we take $H$ to be in <a href="unknown_file">MPO</a> form, we can compute the transformation efficiently,
 defining the $R_j$ tensors along the way:</p>
 <p><img src="H_edge.png" alt="medium" /></p>
 <p>For efficiency, it is crucial that the edge tensors be created by contracting
@@ -303,7 +303,7 @@ and all bonds of the MPS in turn.</p>
 
 ## DMRG for Tree Tensor Networks
 
-The DMRG algorithm can be extended straightforwardly to arbitrary [[tree tensor networks|ttn]], of 
+The DMRG algorithm can be extended straightforwardly to arbitrary [tree tensor networks](unknown_file), of 
 which MPS are a special case. Instead of sweeping forward and backward along an MPS chain, the
 algorithm visits each bond of a tree, otherwise performing very similar optimization and factorization
 steps. 
