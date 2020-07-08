@@ -15,7 +15,7 @@ let
              BackLinks(),
              ;args...)
 
-  run(`git reset`)
+  run(`git reset -q`)
   run(`git add docs`)
   run(`git commit -m 'Website generated'`)
 end
