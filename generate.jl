@@ -1,5 +1,7 @@
 using Spider
 
+include("plugins/sc_wikilinks.jl")
+
 let
   args = (source_dir="src",
           output_dir="docs",
@@ -10,7 +12,7 @@ let
   run_spider(BibTexRefs(),
              ArxivLinks(),
              TOC(),
-             WikiLinks(),
+             SCWikiLinks(;toplevel_prefix="scnumerics"),
              MathJax(),
              BackLinks(),
              ;args...)
