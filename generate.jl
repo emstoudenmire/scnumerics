@@ -14,4 +14,8 @@ let
              MathJax(),
              BackLinks(),
              ;args...)
+
+  run(`git reset`)
+  run(`git add docs`)
+  run(`git commit -m 'Website generated'`)
 end
