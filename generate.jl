@@ -19,5 +19,5 @@ let
 
   run(`git reset -q`)
   run(`git add docs`)
-  run(`git commit -m 'Website generated'`)
+  run(`git commit --allow-empty -m 'Website generated'`)
 end
