@@ -1,6 +1,6 @@
-# SC Numerics
+# Computational methods for strongly correlated systems
 
-In the spring of 2020, a few of us got together to assess the state-of-the-art in the field of numerical approaches 
+In the spring of 2020, some of us got together to assess the state-of-the-art in the field of numerical approaches 
 of strongly correlated systems. We quickly realized that even though there are many good texts out there, 
 they all speak different languages. This applied to our interactions as well, we as computational physicists 
 wanted to understand each other better but realized we were not aware of progresses in each other's respective fields.
