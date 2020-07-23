@@ -34,7 +34,7 @@ Hitesh Changlani, James LeBlanc, Hao Shi, Miles Stoudenmire, Norman Tubman
 
 - [[Matrix Product States and DMRG|mps_dmrg]]
 
-For low dimensional systems that the DMRG method has made major inroads. The key ideas are embedded in important modifications of real space renormalization. 
+  - For low dimensional systems that the DMRG method has made major inroads. The key ideas are embedded in important modifications of real space renormalization. 
   - main idea of renormalization and White's insight
   - the modern formulation in terms of matrix product states
   - container - how are the wavefunctions stored in practice
