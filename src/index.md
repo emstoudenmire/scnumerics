@@ -20,18 +20,35 @@ Since this book remains very much under development, your feedback will be great
 (Drop an email to hitesh.changlani at gmail.com)
 
 With best wishes, 
+
 Hitesh Changlani, James LeBlanc, Hao Shi, Miles Stoudenmire, Norman Tubman
 
 - Configuration Interaction, also known as exact diagonalization - full and selected (CI)
   - basic idea of solving Schrodinger equation in a discrete basis
-  - container - how are the wavefunctions stored
+  - care with signs, fermions, bosons, spins and second quantization
+  - container - how are the wavefunctions stored in practice
   - power method, and its modifications - what is the basic mathematical/physical principle that allows 
+  - other useful things - hashing/Lin tables 
+  - correlation functions 
+  - state of the art, and what is the next frontier
 
 - [[Matrix Product States and DMRG|mps_dmrg]]
 
-For low dimensional systems that the DMRG method 
-has made major inroads. The key ideas are embedded in important modifications of real space renormalization. 
-
-
+For low dimensional systems that the DMRG method has made major inroads. The key ideas are embedded in important modifications of real space renormalization. 
+  - main idea of renormalization and White's insight
+  - the modern formulation in terms of matrix product states
+  - container - how are the wavefunctions stored in practice
+  - correlation functions 
+  - connections to entanglement 
+  - state of the art and what is the next frontier (excited states, finite temperature ?)
+  
 - Quantum Monte Carlo (QMC)
+  - what can one do when the wavefunction can not be stored, main idea of stochastic solution and quantum clas
+  - the modern formulation in terms of matrix product states
+  - container - how are the wavefunctions stored in practice
+  - correlation functions 
+  - connections to entanglement 
+  - state of the art and what is the next frontier (excited states, finite temperature ?)
+  
+
 - Dynamical Mean Field Theory (DMFT)
