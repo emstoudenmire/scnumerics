@@ -20,7 +20,6 @@ Since this book remains very much under development, your feedback will be great
 (Drop an email to hitesh.changlani at gmail.com)
 
 With best wishes, 
-
 Hitesh Changlani, James LeBlanc, Hao Shi, Miles Stoudenmire, Norman Tubman
 
 - Configuration Interaction, also known as exact diagonalization - full and selected (CI)
