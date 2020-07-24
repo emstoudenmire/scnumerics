@@ -8,11 +8,11 @@ In addition, we wanted our students to have a broader understanding of this area
 
 This motivated us to put together a book about numerical methods for strongly correlated electron systems. It is targeted 
 at a young graduate student entering this field. It can not be emphasized enough, but we say very passionately from our experience: 
-Computational physics is not only about making code go faster - it really demands new physical insights that will help 
+Computational physics is not only about making code go faster - it really demands new insights that will help 
 solve computers solve some of the most outstanding set of problems of our generation involving strongly correlated systems. 
 These systems are at the heart of high Tc superconductivity, magnetism and quantum Hall physics. We wish to expose 
 the young student to what the frontiers of this field are, and where they can make an impact. We are hopeful that 
-our enthusiasm and passion for the subject will simulate breakthroughs in this field.
+our enthusiasm and passion for the subject will stimulate breakthroughs in this field.
 
 And finally, even if computational physics is not your primary area of interest, we hope you can still get the basic ideas 
 that are involved in each method. In short, we hope you can enjoy it as much as we did while putting it together. 
